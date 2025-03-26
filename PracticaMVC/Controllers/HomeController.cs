@@ -59,7 +59,7 @@ namespace PracticaMVC.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
-            ViewData["ErrorMessage"] = "";
+            ViewData["ErrorMessage"] = "Error, usuario invalido!!!!";
 			return View(); 
 		}
 
